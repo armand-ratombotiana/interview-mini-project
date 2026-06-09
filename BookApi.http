@@ -1,0 +1,19 @@
+GET http://localhost:8080/api/v1/books
+Accept: application/json
+
+
+GET http://localhost:8080/api/v1/books/1
+Accept: application/json
+
+
+
+PUT http://localhost:8080/api/v1/books/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Effective Java 4th Edition",
+  "author": "Joshua Bloch",
+  "price": 85,
+  "description": "The best Java book for beginners"
+}
